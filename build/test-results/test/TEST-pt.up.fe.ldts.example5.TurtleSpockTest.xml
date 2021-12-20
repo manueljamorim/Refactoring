@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="pt.up.fe.ldts.example5.TurtleSpockTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-12-20T19:47:22" hostname="MacBook-Pro-de-Manuel.local" time="0.01">
+<testsuite name="pt.up.fe.ldts.example5.TurtleSpockTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-12-20T20:21:48" hostname="MacBook-Pro-de-Manuel.local" time="0.1">
   <properties/>
-  <testcase name="Rotate Left" classname="pt.up.fe.ldts.example5.TurtleSpockTest" time="0.008"/>
-  <testcase name="Rotate Right" classname="pt.up.fe.ldts.example5.TurtleSpockTest" time="0.001"/>
-  <testcase name="Forward" classname="pt.up.fe.ldts.example5.TurtleSpockTest" time="0.001"/>
+  <testcase name="Rotate Left" classname="pt.up.fe.ldts.example5.TurtleSpockTest" time="0.074"/>
+  <testcase name="Rotate Right" classname="pt.up.fe.ldts.example5.TurtleSpockTest" time="0.011"/>
+  <testcase name="Forward" classname="pt.up.fe.ldts.example5.TurtleSpockTest" time="0.008"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="pt.up.fe.ldts.example2.ShapeTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-12-20T19:47:22" hostname="MacBook-Pro-de-Manuel.local" time="0.346">
+<testsuite name="pt.up.fe.ldts.example2.ShapeTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-12-20T20:21:49" hostname="MacBook-Pro-de-Manuel.local" time="1.66">
   <properties/>
-  <testcase name="getAreaRectangle()" classname="pt.up.fe.ldts.example2.ShapeTest" time="0.014"/>
-  <testcase name="getPerimeterCircle()" classname="pt.up.fe.ldts.example2.ShapeTest" time="0.001"/>
-  <testcase name="drawCircle()" classname="pt.up.fe.ldts.example2.ShapeTest" time="0.326"/>
-  <testcase name="getAreaCircle()" classname="pt.up.fe.ldts.example2.ShapeTest" time="0.0"/>
-  <testcase name="getPerimeterRectangle()" classname="pt.up.fe.ldts.example2.ShapeTest" time="0.0"/>
-  <testcase name="drawRectangle()" classname="pt.up.fe.ldts.example2.ShapeTest" time="0.002"/>
+  <testcase name="getAreaRectangle()" classname="pt.up.fe.ldts.example2.ShapeTest" time="0.056"/>
+  <testcase name="getPerimeterCircle()" classname="pt.up.fe.ldts.example2.ShapeTest" time="0.002"/>
+  <testcase name="drawCircle()" classname="pt.up.fe.ldts.example2.ShapeTest" time="1.583"/>
+  <testcase name="getAreaCircle()" classname="pt.up.fe.ldts.example2.ShapeTest" time="0.002"/>
+  <testcase name="getPerimeterRectangle()" classname="pt.up.fe.ldts.example2.ShapeTest" time="0.001"/>
+  <testcase name="drawRectangle()" classname="pt.up.fe.ldts.example2.ShapeTest" time="0.005"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

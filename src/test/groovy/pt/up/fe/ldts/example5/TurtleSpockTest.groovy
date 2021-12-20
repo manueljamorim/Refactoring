@@ -12,29 +12,32 @@ class TurtleSpockTest extends Specification {
             turtle.execute('L' as char);
 
         then:
-            'W' == turtle.getDirection()
+            'W' == turtle.getPosition().getDirection()
 
         and:
             turtle.execute('L' as char);
 
         then:
-            'S' == turtle.getDirection()
+            'S' == turtle.getPosition().getDirection()
+
 
         and:
             turtle.execute('L' as char);
 
         then:
-            'E' == turtle.getDirection()
+            'E' == turtle.getPosition().getDirection()
+
 
         and:
             turtle.execute('L' as char);
 
         then:
-            'N' == turtle.getDirection()
+            'N' == turtle.getPosition().getDirection()
+
 
         and:
-            5 == turtle.getRow()
-            5 == turtle.getColumn()
+            5 == turtle.getPosition().getRow()
+            5 == turtle.getPosition().getColumn()
     }
 
     def 'Rotate Right'() {
@@ -45,29 +48,33 @@ class TurtleSpockTest extends Specification {
             turtle.execute('R' as char);
 
         then:
-            'E' == turtle.getDirection()
+            'E' == turtle.getPosition().getDirection()
+
 
         and:
             turtle.execute('R' as char);
 
         then:
-            'S' == turtle.getDirection()
+            'S' == turtle.getPosition().getDirection()
+
 
         and:
             turtle.execute('R' as char);
 
         then:
-            'W' == turtle.getDirection()
+            'W' == turtle.getPosition().getDirection()
+
 
         and:
             turtle.execute('R' as char);
 
         then:
-            'N' == turtle.getDirection()
+            'N' == turtle.getPosition().getDirection()
+
 
         and:
-            5 == turtle.getRow()
-            5 == turtle.getColumn()
+            5 == turtle.getPosition().getRow()
+            5 == turtle.getPosition().getColumn()
     }
 
     def 'Forward'() {
@@ -84,19 +91,19 @@ class TurtleSpockTest extends Specification {
             turtleE.execute('F' as char);
 
         then:
-            4 == turtleN.getRow()
-            5 == turtleN.getColumn()
+            4 == turtleN.getPosition().getRow()
+            5 == turtleN.getPosition().getColumn()
 
         and:
-            5 == turtleW.getRow()
-            4 == turtleW.getColumn()
+            5 == turtleW.getPosition().getRow()
+            4 == turtleW.getPosition().getColumn()
 
         and:
-            6 == turtleS.getRow()
-            5 == turtleS.getColumn()
+            6 == turtleS.getPosition().getRow()
+            5 == turtleS.getPosition().getColumn()
 
         and:
-            5 == turtleE.getRow()
-            6 == turtleE.getColumn()
+            5 == turtleE.getPosition().getRow()
+            6 == turtleE.getPosition().getColumn()
     }
 }
