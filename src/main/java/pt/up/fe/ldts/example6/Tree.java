@@ -7,9 +7,7 @@ import java.util.List;
 
 public class Tree {
     public Date plantedAt;
-    public String locationLatitude;
-    public String locationLongitude;
-    public String locationName;
+    public Location location;
     private List<Date> appraisalDates;
 
     public Tree(Date plantedAt, String locationLatitude, String locationLongitude, String locationName){
@@ -18,14 +16,16 @@ public class Tree {
         this.appraisalDates = new ArrayList<>();
     }
 
+    public Location getLocation(){
+        return location;
+    }
+
     public void setLocation(String locationLatitude, String locationLongitude, String locationName){
-        this.locationLatitude = locationLatitude;
-        this.locationLongitude = locationLongitude;
-        this.locationName = locationName;
+        this.location = new Location(locationLatitude,locationLongitude,locationName);
     }
 
     public String toString() {
-        return "Tree planted at " + this.plantedAt.toString() + " in location " + this.locationLatitude + "," + this.locationLongitude + " (" + this.locationName + ")";
+        return "Tree planted at " + this.plantedAt.toString() + " in location " + location.toString();
     }
 
     void addAppraisal(Date appraisalDate) {
@@ -63,4 +63,6 @@ public class Tree {
         // Appraisal is only overdue if its date is in the past
         return nextAppraisalDate.before(today);
     }
+
+
 }
